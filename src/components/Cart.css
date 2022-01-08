@@ -1,15 +1,15 @@
 .cart__books::-webkit-scrollbar {
   display: none;
 }
-.cart__books{
+.cart__books {
   display: flex;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width:none; 
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
   overflow-x: scroll;
 }
 .cart__placeOrder {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
 }
 .cart__placeOrderEnabled {

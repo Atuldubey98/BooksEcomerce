@@ -1,10 +1,10 @@
-import { useState } from 'react';
+import { useState } from "react";
 const useErrorField = () => {
-    const [error, setError] = useState('')
-    const handleError = (err) => {
-        setError(err);
-    }
-    return [error, handleError];
-}
+  const [error, setError] = useState("");
+  const handleError = (err) => {
+    setError(err);
+  };
+  return [error, handleError];
+};
 
-export default useErrorField
+export default useErrorField;
