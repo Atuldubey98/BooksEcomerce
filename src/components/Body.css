@@ -1,7 +1,6 @@
 .body {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   background-image: linear-gradient(180deg, #ffff0036, white);
   box-shadow: 1px 1px lightgrey;
 }
@@ -16,7 +15,10 @@
   height: 30px;
 }
 .body__normalBody {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns:  repeat(auto-fit, minmax(280px, 1fr));
   justify-content: space-around;
+}
+ #category option{
+  text-transform: capitalize;
 }

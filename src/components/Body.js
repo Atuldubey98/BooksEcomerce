@@ -77,7 +77,7 @@ const Body = (props) => {
               {"All"}
             </option>
             {categories.map((cate, index) => (
-              <option key={index + 1} value={cate.category}>
+              <option className="category__option" key={index + 1} value={cate.category}>
                 {cate.category}
               </option>
             ))}

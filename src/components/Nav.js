@@ -56,6 +56,7 @@ const Nav = (props) => {
             value={props.search}
             onChange={props.handleSearch}
             type="text"
+            className="nav__search"
           />
         )}
         <IconButton
